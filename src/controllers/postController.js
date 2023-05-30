@@ -103,10 +103,6 @@ const postComment = asyncHandler(async (req, res, next) => {
   res.status(200).json(post);
 });
 
-//delete the post
-
-// const deletePost
-
 module.exports = {
   createPost,
   getPost,
